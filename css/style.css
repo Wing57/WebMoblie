@@ -1,0 +1,33 @@
+/*
+ * @Author: WuQi 
+ * @Date: 2018-08-13 09:20:30 
+ * @Last Modified by: WuQi
+ * @Last Modified time: 2018-08-13 10:55:03
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+}
+
+* {
+  font-size: 0.1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-all;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=style.css.map */
