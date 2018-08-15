@@ -2,10 +2,10 @@
  * @Author: WuQi 
  * @Date: 2018-08-13 09:20:30 
  * @Last Modified by: WuQi
- * @Last Modified time: 2018-08-13 10:55:03
+ * @Last Modified time: 2018-08-14 17:26:35
  */
 
-// Reset
+// Reset 重置样式
 html,
 body {
     margin: 0;
@@ -30,4 +30,30 @@ table {
 
 img {
     vertical-align: bottom;
+}
+
+.wow:first-child {
+    visibility: hidden; // 防闪烁
+}
+
+// 阿里的iconfont库 http://www.iconfont.cn/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.an {
+    animation: an1 1s ease 0s 1 both;
+}
+
+@keyframes an1 {
+    0% {
+        transform: translate(0, -4rem);
+    }
+    100% {
+        transform: translate(0, 0rem);
+    }
 }
